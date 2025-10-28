@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#1a4d5c"/>
+  
+  <!-- QR Code Pattern (simplified) -->
+  <!-- Top-left corner -->
+  <rect x="20" y="20" width="140" height="140" fill="white" rx="10"/>
+  <rect x="50" y="50" width="80" height="80" fill="#1a4d5c" rx="5"/>
+  
+  <!-- Top-right corner -->
+  <rect x="340" y="20" width="140" height="140" fill="white" rx="10"/>
+  <rect x="370" y="50" width="80" height="80" fill="#1a4d5c" rx="5"/>
+  
+  <!-- Bottom-left corner -->
+  <rect x="20" y="340" width="140" height="140" fill="white" rx="10"/>
+  <rect x="50" y="370" width="80" height="80" fill="#1a4d5c" rx="5"/>
+  
+  <!-- Center pattern with SHL text -->
+  <rect x="180" y="180" width="140" height="140" fill="white" rx="10"/>
+  <text x="250" y="270" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#1a4d5c" text-anchor="middle">SHL</text>
+  
+  <!-- Decorative QR dots -->
+  <circle cx="250" cy="90" r="15" fill="white"/>
+  <circle cx="90" cy="250" r="15" fill="white"/>
+  <circle cx="410" cy="250" r="15" fill="white"/>
+  <circle cx="250" cy="410" r="15" fill="white"/>
+  
+  <!-- Small pattern squares -->
+  <rect x="190" y="90" width="25" height="25" fill="white"/>
+  <rect x="285" y="90" width="25" height="25" fill="white"/>
+  <rect x="90" cy="190" width="25" height="25" fill="white"/>
+  <rect x="385" y="190" width="25" height="25" fill="white"/>
+  <rect x="190" y="385" width="25" height="25" fill="white"/>
+  <rect x="285" y="385" width="25" height="25" fill="white"/>
+</svg>
